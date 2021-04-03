@@ -1,5 +1,5 @@
 # rosbaseraspbian
-how to install ros base on a raspbian buster
+how to install ros base on a raspbian buster Lite flashed the 03/04/2021 on a Raspberry Pi 3B+
 
 ```
 sudo apt-get update
