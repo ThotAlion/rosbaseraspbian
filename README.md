@@ -1,6 +1,7 @@
 # rosbaseraspbian
 how to install ros base on a raspbian buster
 
+```
 sudo apt-get update
 sudo apt-get upgrade
 
@@ -65,4 +66,6 @@ rosdep install --from-paths src --ignore-src --rosdistro foxy -y --skip-keys "co
 cd ~/ros2_foxy/
 colcon build --symlink-install --cmake-args "-DCMAKE_SHARED_LINKER_FLAGS='-latomic'" "-DCMAKE_EXE_LINKER_FLAGS='-latomic'"
 
+# and source the bash
 source ~/ros2_foxy/install/local_setup.bash
+```
